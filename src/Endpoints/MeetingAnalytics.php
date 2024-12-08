@@ -28,4 +28,5 @@ trait MeetingAnalytics
     {
         return $this->get("recordings/{$meetingId}", $data);
     }
+
 }
